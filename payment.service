@@ -5,11 +5,11 @@ Description=Payment Service
 User=root
 WorkingDirectory=/app
 // highlight-start
-Environment=CART_HOST=cart.bandarusuresh.in.fun
+Environment=CART_HOST=cart.bandarusuresh.in
 Environment=CART_PORT=8080
-Environment=USER_HOST=user.bandarusuresh.in.fun
+Environment=USER_HOST=user.bandarusuresh.in
 Environment=USER_PORT=8080
-Environment=AMQP_HOST=rabbitmq.bandarusuresh.in.fun
+Environment=AMQP_HOST=rabbitmq.bandarusuresh.in
 // highlight-end
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
